@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "​node_modules/.bin/postcss​ tailwind.css -o dist/css/style.css",
+    "build": "node_modules/.bin/postcss tailwind.css -o dist/css/style.css",
     "watch": "node_modules/.bin/postcss tailwind.css -o dist/css/style.css --watch"
   },
   "repository": {

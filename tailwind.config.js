@@ -2,7 +2,7 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    debugScreens: { 
+    debugScreens: {
       position: ['top', 'left'],
     },
     extend: {},
@@ -11,6 +11,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    ​require('tailwindcss-debug-screens'),
-  ],
+    require('tailwindcss-debug-screens'),
+  ]
 }
